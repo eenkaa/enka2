@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--
+      Form: HTML'de form oluşturmamızı sağlar.
+
+      Label: Yazıyı göstermektir amacı. For özelliği ile Input ile yazıyı birbirine bağlar
+
+      Input: Kullanıcın dolduracağı alanları oluşturur.
+    -->
+
+    <form>
+      <label for="kullanici-adi">Kullanıcı Adı</label> <br />
+      <input
+        type="text"
+        id="kullanici-adi"
+        placeholder="Kullanıcı adı girin.."
+      />
+
+      <br />
+
+      <label for="sifre">Şifre</label> <br />
+      <input type="password" id="sifre" placeholder="Şifre girin.." /> <br />
+
+      <input type="submit" value="Giriş Yap" />
+    </form>
+  </body>
+</html>

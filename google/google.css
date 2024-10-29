@@ -1,0 +1,51 @@
+.container{
+    width: 90%;
+    margin: auto;
+    
+}
+
+.head{
+    width: 351;
+    height: 113;
+    text-align: center;
+}
+
+.search{ 
+    padding:10px;
+    background-color: rgb(227, 226, 226);
+    text-align: center;
+
+}
+
+.content {
+    height: ;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#eefad7;
+    
+}
+
+.box1{
+    
+    
+}
+
+.box2{
+    
+    width: 300px;
+    height: 100px;
+
+}
+
+.box3{
+    
+    width: 300px;
+    height: 100px;
+}
+
+
+.footer{
+    text-align: center;
+    font-size: 15px;
+}
